@@ -50,6 +50,7 @@ nav {
 }
 
 .entry--image{
+  object-fit: cover;
   height: 168px;
   width: 125px;
   border-radius: 5px;
