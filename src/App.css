@@ -4,6 +4,26 @@
   margin: 0px;
 }
 
+a:link {
+  color: #918E9B;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #918E9B;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #918E9B;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #918E9B;
+  text-decoration: underline;
+}
+
 nav {
   height: 55px;
   background-color: #F55A5A;
@@ -17,4 +37,64 @@ nav {
 
 .logo {
   height: 26px;
+}
+
+.entry--section {
+  margin-top: 10px;
+  display: flex;
+  width: 45%;
+  font-size: 10px;
+  color: #2B283A;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #F5F5F5;
+}
+
+.entry--image{
+  height: 168px;
+  width: 125px;
+  border-radius: 5px;
+}
+
+.location {
+  display: flex;
+  gap: 2.5px;
+}
+
+.location > img {
+  height: 10px;
+}
+
+.location-info {
+  display: flex;
+  gap: 10px;
+}
+
+.entry--title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: .4em;
+}
+
+.entry--dates {
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.entry--description {
+  margin-top: 2em;
+}
+
+.entry--info {
+  padding: 20px;
+}
+
+.entry--divider {
+  margin-top: 10px;
+  color:#2B283A;
+}
+
+.entries {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
