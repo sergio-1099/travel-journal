@@ -1,10 +1,10 @@
 import React from "react"
-import logo from "../assets/world.png"
+import logo from "../assets/earth.png"
 
 function Nav() {
   return (
     <nav>
-      <img src={logo} alt="world logo" />
+      <img className="logo" src={logo} alt="world logo" />
       <h1>my travel journal.</h1>
     </nav>
   )
